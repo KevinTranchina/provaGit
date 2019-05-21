@@ -1,0 +1,30 @@
+public class Account {
+
+
+    Scanner scan = new Scanner(System.in);
+
+
+    String nome, cognome;
+    int pin;
+
+
+
+    public void inserimentoDati () {
+
+        System.out.println("Inserisci il nome ");
+        nome = scan.nextLine();
+
+        System.out.println("Inserisci il cognome ");
+        cognome = scan.nextLine();
+
+        System.out.println("Inserisci il pin");
+        int pin = scan.nextInt();
+
+        if (pin !=12345) {
+            System.out.println("Pin errato");
+        }
+
+
+        }
+
+    }
