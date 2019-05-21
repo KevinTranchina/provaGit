@@ -9,8 +9,6 @@ public class Account {
     String nome, cognome;
     int pin;
 
-
-
     public void inserimentoDati () {
 
         System.out.println("Inserisci il nome ");
@@ -25,7 +23,6 @@ public class Account {
         if (pin !=12345) {
             System.out.println("Pin errato");
         }
-        
         }
 
     public static void main(String[] args) {
